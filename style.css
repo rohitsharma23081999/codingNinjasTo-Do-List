@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#inputTodo {
+  width: 200px;
+}
+#myBtn {
+  width: 88.3px;
+}
+#myBtn:hover {
+  background-color: bisque;
+}
+#todo-container {
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#todo-header {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.add-todo {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.addTodo ul {
+  position: relative;
+  background-color: rgb(5, 31, 31);
+  color: white;
+  font-size: 19px;
+  padding: 7px;
+  text-align: left;
+}
+.addTodo ul span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
